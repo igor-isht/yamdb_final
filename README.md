@@ -1,8 +1,5 @@
-![YaMDb](https://github.com/igor-isht/yamdb_final/actions/yamdb_workflow/main.yml/badge.svg)
+![YaMDb](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-
-[![CI YaMDb](https://github.com/igor-isht/yamdb_final/workflows/CI/badge.svg
-)](https://github.com/igor-isht/yamdb_final/actions/workflows/NET_Framework_CI.yml)
 
 
 # Проект YaMDb. Приложение reviews и его API
