@@ -21,9 +21,7 @@ jobs:
 
     - name: Test with flake8 and django tests
       run: |
-        # запуск проверки проекта по flake8
         python -m flake8
-        # запуск тестов Практикума
         pytest
 
   build_and_push_to_docker_hub:
@@ -43,8 +41,9 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2 
         with:
+          context: ./infra
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/yamdb:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdb:latest
 
   deploy:
     runs-on: ubuntu-latest
