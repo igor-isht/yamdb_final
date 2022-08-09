@@ -1,4 +1,4 @@
-![YaMDb](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![Yamdb workflow](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 
 
