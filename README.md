@@ -1,3 +1,6 @@
+![YaMDb](https://github.com/igor-isht/yamdb_final/actions/yamdb_workflow/main.yml/badge.svg)
+
+
 # Проект YaMDb. Приложение reviews и его API
 Проект YaMDb собирает отзывы пользователей на различные произведения.
 
