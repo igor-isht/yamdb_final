@@ -12,7 +12,7 @@
 - Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/igor-isht/infra_sp2.git
+git clone https://github.com/igor-isht/yamdb_final.git
 ```
 
 ```
@@ -66,4 +66,13 @@ POSTGRES_PASSWORD=PASSWORD
 После этого пользователь должен самостоятельно отправить свой email и username на эндпоинт /api/v1/auth/signup/ , в ответ ему должно прийти письмо с кодом подтверждения.
 Далее пользователь отправляет POST-запрос с параметрами username и confirmation_code на эндпоинт /api/v1/auth/token/, в ответе на запрос ему приходит token (JWT-токен), как и при самостоятельной регистрации.
 
+## Авторы
+Над проектом работали:
 
+[@DenielMay](https://github.com/DenielMay) - регистрация и аутентификация пользователей, права доступа, работа с токеном
+
+[@igor-isht](https://github.com/igor-isht) - настройка эндпойнтов для жанров, произведений и категорий
+
+[@blackworse8](https://github.com/blackworse8) - настройка эндпойнтов для отзывов и комментариев
+
+[@yandex-praktikum](https://github.com/yandex-praktikum) - юнит-тесты
