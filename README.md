@@ -16,7 +16,7 @@ git clone https://github.com/igor-isht/yamdb_final.git
 ```
 
 ```
-cd infra_sp2/infra
+cd yamdb_final/infra
 ```
 - Запустить docker-compose (необходим Docker Desktop):
 
