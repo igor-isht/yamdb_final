@@ -1,5 +1,3 @@
-[![Yamdb workflow](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml)
-
 
 # Проект YaMDb. Приложение reviews и его API
 Проект YaMDb собирает отзывы пользователей на различные произведения.
