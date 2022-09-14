@@ -1,5 +1,4 @@
-
-[![Yamdb workflow](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=workflow_run)](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![Yamdb workflow](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/igor-isht/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 
 # Проект YaMDb. Приложение reviews и его API
