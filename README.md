@@ -18,6 +18,27 @@ git clone https://github.com/igor-isht/yamdb_final.git
 ```
 cd yamdb_final/infra
 ```
+
+Cоздать файл с переменными окружения .env с настройками БД и со следующими ключами
+(можно создать пустой файл, будут применены настройки по умолчанию):
+
+
+```
+DB_ENGINE=django.db.backends.postgresql
+
+DB_NAME=your_db_name 
+
+POSTGRES_USER=your_user
+
+POSTGRES_PASSWORD=your_password
+
+DB_HOST=your_host
+
+DB_PORT=5432
+
+SECRET_KEY=Your_secret_key
+```
+
 - Запустить docker-compose (необходим Docker Desktop):
 
 ```
@@ -39,25 +60,7 @@ docker system prune -f
 ```
 
 
-В той же папке создать файл с переменными окружения .env с настройками БД и со следующими ключами
-(можно создать пустой файл, будут применены настройки по умолчанию):
 
-
-```
-DB_ENGINE=django.db.backends.postgresql
-
-DB_NAME=your_db_name 
-
-POSTGRES_USER=your_user
-
-POSTGRES_PASSWORD=your_password
-
-DB_HOST=your_host
-
-DB_PORT=5432
-
-SECRET_KEY=Your_secret_key
-```
 
 ## Документация
 
